@@ -1,0 +1,64 @@
+
+.flex-box{
+    display: flex;
+  flex-wrap: wrap;
+}
+
+.buyitem article{
+    width:  428px;
+    height: 380px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 30px;
+    background-color: #f1f1f1;
+}
+img{
+    width: 428px;
+}
+
+.bill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #f1f1f1; */
+  }
+  
+  .bill h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .bill article {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    width: 100%;
+  }
+  
+  .bill article span {
+    flex-basis: 50%;
+  }
+  
+  .bill h3 {
+    margin: 5px;
+  }
+  
+  .bill button {
+    margin: 20px;
+  }
+  
+
+  button{
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgba(26, 2, 52, 0.696);
+    color: white;
+    background-color:rgba(26, 2, 52, 0.696);
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  button:hover{
+    color: rgba(26, 2, 52, 0.696);
+    background-color: white;
+  }
